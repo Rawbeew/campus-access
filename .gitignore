@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# YOLO models (large, downloaded on first run)
+*.pt
+
+# Output artifacts
+output_*.mp4
+session.json
+benchmark_report.json
+annotated.mp4
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
